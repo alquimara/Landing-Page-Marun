@@ -1,0 +1,57 @@
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.navbar-link p {
+  font-family: "BentonSansNormal";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.navbar-nav {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-link {
+  margin-left: 50px;
+  padding-left: 20px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.2em;
+  color: #e27b01;
+}
+
+.navbar-brand {
+  position: absolute;
+  width: 58.2px;
+  height: 277.3px;
+  left: 158.58px;
+  top: 10px;
+  background: url("./assents/logo1.png");
+  z-index: 10;
+}
+
+@font-face {
+  font-family: "BentonSansBold";
+  src: url("./fonte/benton/bentonsansbold/BentonSans Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSansExtraBold";
+  src: url("./fonte/benton/bentonsansblack/BentonSans Black.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSansNormal";
+  src: url("./fonte/benton/bentonsansbook/BentonSans Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "BentonSansMedium";
+  src: url("./fonte/benton/bentonsansmedium/BentonSans Medium.otf") format("opentype");
+}
+
+/*# sourceMappingURL=index.css.map */

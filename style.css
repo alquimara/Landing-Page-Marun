@@ -1,0 +1,539 @@
+html, body{
+    overflow-x: hidden;
+    
+}
+body{
+    overflow-y: hidden;
+}
+.navbar-brand{
+    position: absolute;
+    width: 58.2px;
+    height: 277.3px;
+    left: 158.58px;
+    top: 10px;
+    background: url('./assents/logo1.png');
+    z-index: 10;
+    
+}
+.nav-link p{
+    font-family:'BentonSansNormal';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+.icon{
+    height:28px;
+    width:28px;
+    fill:#FFFFFF;
+
+}
+.container{
+    margin-right: 50px;
+
+}
+.navbar-nav{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.nav-link{
+    margin-left: 50px;
+    padding-left: 20px;
+    font-family: 'BentonSans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    color: #E27B01;
+}
+.navbar{
+    height:95px;
+   
+}
+.container-card{
+    background-color:#b83d24 ;
+    height:745px;
+    position: relative;
+    margin-top:90px;
+    width: 1920px;
+
+}
+.container-img-top{
+    
+    height: 383px;
+    left: 0px;
+    top: 104px;
+    mix-blend-mode: multiply;
+    z-index: 2;
+    width: 100%;
+}
+.container-img-botton{
+    mix-blend-mode: multiply;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin-top:20px;
+    z-index: 5;
+    width: 100%;
+
+}
+.section-card-social{
+    position: absolute;
+    width: 1920px;
+    height: 746.18px;
+    left: 0px;
+    top: 3017px;
+    background: url('./assents/Rectangle3.png');
+}
+.section-card-social-text{
+    position: absolute;
+    width: 100%;
+    height: 77px;
+    top: 105px;
+  
+}
+.card-social-h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #000000;
+    font-family: 'BentonSansExtraBold';
+
+}
+.section-card-social-carrocel{
+    position:absolute;
+    width: 1915px;
+    height: 383px;
+    top:240px;
+    mix-blend-mode: multiply;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background-image: url('./assents/Group8.png');
+   
+}
+
+.container-card-social{
+    width:9999px;
+    height:298px;
+    top:279px;
+    position:absolute;
+    display:flex;
+    align-items:center;
+    
+}
+
+
+.img-card-social{
+    display: inline-block;
+    width: 298px;
+    height: 298px;
+    transform:scale(1.024);
+    position: relative;
+    transition: all 1s linear;
+    cursor: pointer;
+}
+.img-card-social-hover{
+    position: absolute;
+    width: 298px;
+    height: 298px;
+    background: rgba(183, 61, 38, 0.8);
+    bottom:0px;
+    display:none;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn-arrow-left{
+    background-image: url('./assents/left-arrow.png');
+    z-index: 10;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    align-items: center;
+}
+.img-card-social:hover >.img-card-social-hover{
+    display: flex;
+   
+
+}
+.section-card-sobre-img{
+position: absolute;
+width: 1920px;
+height: 720.82px;
+top:745px;
+background: url('./assents/image\ 8.png');
+}
+.section-card-sobre{
+    position: absolute;
+    width: 464px;
+    height: 722px;
+    left: 1081px;
+    background: rgba(183, 61, 38, 0.8);
+    display: flex;
+    justify-content: center;
+
+}
+.section-card-sobre-text{
+    width:426px;
+    height:100%;
+}
+.section-card-sobre-text h2{
+    margin-top:90px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    font-family: 'BentonSansExtraBold';
+}
+
+
+.section-card-sobre-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: justify;
+    margin-top:57px;
+    font-family: 'BentonSansNormal';
+}
+.section-card-map{
+    position: absolute;
+    width: 1920px;
+    height: 488px;
+    background-image: url('./assents/Rectangle 15.png');
+    top:720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-card-map img{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    
+}
+.section-card-footer{
+    position: absolute;
+    width: 1915px;
+    height: 383px;
+    top:1180px;
+    mix-blend-mode: multiply;
+    background-image: url('./assents/Group8.png');
+    
+}
+.section-card-footer-container{
+    position: absolute;
+    width: 1920px;
+    height: 288px;
+    top:40px;
+    background: #000000;
+    display:flex;
+    justify-content: center;
+    
+}
+.section-card-footer-container-img{
+    background-image: url('./assents/logo2.png');
+    width: 165.98px;
+    height: 95.16px;
+    margin-top:62px;
+    margin-right: 171px;
+}
+
+.section-card-footer-container-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top:95px;
+    margin-right: 171px;
+    font-family: 'BentonSansNormal';
+}
+
+.section-card-footer-container-contato p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top:68px;
+    color:#FFFFFF;
+    font-family: 'BentonSansBold';
+   
+}
+.section-card-footer-container-contato img{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.container-img{
+    z-index: 3;
+    position: absolute;
+    width: 1920px;
+    height: 500px;
+    left: 0px;
+    top: 145px;
+    background-image: url('./assents/Rectangle 13.png');
+   
+    
+}
+.container-img h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    width: 500.68px;
+    height: 154px;
+    margin-left: 410px;
+    margin-top: 111px;
+    font-family:'BentonSansExtraBold';
+
+    
+}
+.container-img p{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    width: 602px;
+    height: 92px;
+    margin-left: 410px;
+    margin-top:39px;
+    font-family: 'BentonSansNormal';
+    font-style: normal;
+
+}
+.container-img p span{
+    font-weight: 700;
+
+}
+
+.container-card-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+
+}
+.container-card-drinks{
+    justify-content: start;
+    
+}
+.container-card-cozinha{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+   margin-top:100px;
+   justify-content: center;
+   
+  
+
+}
+
+.img-card-cozinha{
+    width: 499.51px;
+    margin-left: 30px;
+
+    
+}
+.card-text{
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    color: #000000;
+    height: 231px;
+    width: 620px;
+    font-family:'BentonSansExtraBold'
+
+   
+
+}
+.col-md-8{
+    height:548.66px;
+    width:566px;
+   
+}
+.col-md-4{
+    width:564.88px;
+    
+}
+
+.card{
+    border: none;
+   
+}
+.card-body{
+    margin-top: 30px;
+    padding: 1rem 0rem 1rem 1rem;
+    height: 548.66px;
+}
+.card-title{
+    margin-bottom:20px;
+    font-family: 'BentonSansMedium';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.745em;
+
+}
+.card-comida{
+    width:370px;
+}
+.card-text-2{
+
+    font-family:'BentonSansNormal';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top:40px;
+    text-align:justify;
+    width:570px;
+
+}
+
+.row {
+    max-width: 1200px;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+   ;
+   
+
+}
+.card-text-drinks{
+ 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 48px;
+    width: 367px;
+    font-family: 'BentonSansExtraBold';
+}
+.card-text-3{
+    font-family: 'BentonSansNormal';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width:336px;
+    text-align:justify;
+    margin-top:52px;
+}
+.btn-lg-drinks{
+    width: 305px;
+    height: 62px;
+    margin-top: 60px;
+    background: #E27B01;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border:none;
+    cursor: pointer;
+}
+.btn-lg-drinks p{
+    font-family: 'BentonSansMedium';
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+    letter-spacing: 0.02em;
+}
+.btn-lg-drinks:hover{
+    background-color: rgb(183, 61, 38);
+
+}
+
+
+.row-card-drinks{
+    grid-template-rows: repeat(2,1fr);
+    padding: 0.75rem 0 0.75rem 0;
+    width: 370px;
+  
+}
+.border{
+    width: 1171px;
+    height: 0px;
+    border: 1px solid rgba(145, 145, 145, 0.3);
+    margin-top: 60px;
+   
+}
+.card-drinks-1{
+   grid-row: 1/4;
+
+
+
+}
+.conatiner-card-drinks-col{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr );
+   
+
+}
+.card-drinks{
+    display:grid;
+    grid-template-columns: 170px 170px;
+    justify-content: space-between;
+
+}
+.card-title-drinks{
+    margin-top:10px;
+
+}
+
+.col{
+    padding:1rem;
+
+}
+.col-drinks{
+    height:585px;
+  
+
+}
+.featured-text{
+    color:rgba(226, 123, 1, 1);
+}
+.featured-text-cozinha{
+    color:rgba(183, 61, 38, 1);
+}
+.featured-text-bold{
+    font-weight:700;
+}
+
+
+.card-img-top{
+    width: 370px;
+    height: 276.32px;
+}
+@font-face {
+    font-family:'BentonSansBold' ;
+   
+    src: url('./fonte/benton/bentonsansbold/BentonSans\ Bold.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'BentonSansExtraBold';
+     src: url('./fonte/benton/bentonsansblack/BentonSans\ Black.otf') format('opentype'); 
+    
+}
+@font-face {
+    font-family: 'BentonSansNormal';
+    src: url('./fonte/benton/bentonsansbook/BentonSans\ Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('./fonte/benton/bentonsansmedium/BentonSans\ Medium.otf') format('opentype');
+    
+}
+

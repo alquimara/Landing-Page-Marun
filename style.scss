@@ -1,0 +1,101 @@
+$color-primary:#b83d24;
+$color-secondary:#E27B01;
+$color-tertiary:#FFFFFF;
+$color-forth:#000000;
+
+
+$color-primary-rgba:rgba(183, 61, 38, 0.8);
+$color-primary-rgba1:rgba(183, 61, 38, 1);
+$color-secondary:rgba(226, 123, 1, 1);
+$color-tertiary-rgba:rgba(145, 145, 145, 0.3);
+
+
+$fonte-bold:'BentonSansBold';
+$font-regular:'BentonSansNormal';
+$font-Extra-Bold: 'BentonSansExtraBold';
+$fonte-medium:'BentonSansMedium';
+
+html, body{
+    overflow-x: hidden;
+    
+}
+body{
+    overflow-y: hidden;
+}
+
+@mixin navbar-brand {
+    position: absolute;
+    width: 58.2px;
+    height: 277.3px;
+    left: 158.58px;
+    top: 10px;
+    background: url('./assents/logo1.png');
+    z-index: 10;
+    
+}
+@mixin nav-link{
+    margin-left: 50px;
+    padding-left: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.2em;
+    color: $color-secondary;
+}
+@mixin nav-link-p {
+    font-family:$font-regular;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+.navbar-link p{
+    @include nav-link-p;
+}
+
+.navbar-nav{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.nav-link{
+    @include nav-link
+    
+}
+.navbar-brand{
+    @include navbar-brand
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family:'BentonSansBold' ;
+   
+    src: url('./fonte/benton/bentonsansbold/BentonSans\ Bold.otf') format('opentype');
+    
+}
+@font-face {
+    font-family: 'BentonSansExtraBold';
+     src: url('./fonte/benton/bentonsansblack/BentonSans\ Black.otf') format('opentype'); 
+    
+}
+@font-face {
+    font-family: 'BentonSansNormal';
+    src: url('./fonte/benton/bentonsansbook/BentonSans\ Book.otf') format('opentype');
+}
+@font-face {
+    font-family: 'BentonSansMedium';
+    src: url('./fonte/benton/bentonsansmedium/BentonSans\ Medium.otf') format('opentype');
+    
+}
